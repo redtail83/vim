@@ -1,0 +1,6 @@
+---
+# file: roles/vim/tasks/setup-RedHat.yml
+
+# be sure VIM is installed
+- name: be sure vim-enhanced is installed on RedHat family
+  package: name=vim-enhanced state=present

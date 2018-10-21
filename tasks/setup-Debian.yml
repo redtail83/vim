@@ -1,0 +1,6 @@
+---
+# file: roles/vim/tasks/setup-Debian.yml
+
+# be sure VIM is installed
+- name: be sure vim is installed on Debian family
+  package: name=vim state=present
